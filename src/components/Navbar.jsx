@@ -43,7 +43,10 @@ function Navbar() {
         <div className="navbar-center">
           
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end flex gap-5">
+          <Link to='/create' className="btn btn-neutral">
+            Add new user
+          </Link>
           <label className="swap swap-rotate">
             <input type="checkbox" onClick={handleTheme} />
             <BsSunFill className="swap-on h-4 w-4" />
